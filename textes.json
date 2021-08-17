@@ -1,0 +1,32 @@
+{
+    "fr": {
+      "error": "Commande introuvable",
+      "start":"Démarrage du processus terminal terminer",
+      "helpstart":"Taper help pour avoir la liste des commandes",
+      "infoconfig":"Vous pouvez modifier le fichier config.json",
+      "clearhelp":"          : Supprime les messages du terminal",
+      "stophelp":"           : Arrête le processus terminal",
+      "openapphelp":"        : Ouvre une application (MacOs seulement)",
+      "questionnairehelp":"  : Lance un questionnaire",
+      "asciihelp":"          : Met un texte en Ascii Art",
+      "bitcoinhelp":"        : Affiche le prix du bitcoin",
+      "messageclear":"Les messages du terminal ont été supprimé",
+      "titlehelp":"Nom de commande           Description",
+      "stopmessage":"Merci d'avoir utiliser Onyx"
+    },
+    "en": {
+      "error": "Command not found",
+      "start":"Start terminal process finish",
+      "helpstart":"Type help to get the list of commands",
+      "infoconfig":"You can modify the config.json file",
+      "clearhelp":"          : Deletes messages from the terminal",
+      "stophelp":"           : Stop the terminal process",
+      "openapphelp":"        : Opens an application (MacOs only)",
+      "questionnairehelp":"  : Launch a questionnaire",
+      "asciihelp":"          : Put a text in Ascii Art",
+      "bitcoinhelp":"        : Displays the bitcoin price",
+      "messageclear":"Terminal messages have been deleted",
+      "titlehelp":"Name of the command           Description",
+      "stopmessage":"Thank you for using Onyx"
+    }
+}
