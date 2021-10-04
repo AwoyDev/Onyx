@@ -1,8 +1,9 @@
 {
     "fr": {
       "error": "Commande introuvable",
-      "start":"Démarrage du processus terminal terminer",
+      "start":"Démarrage du processus terminal terminé",
       "helpstart":"Taper help pour avoir la liste des commandes",
+      "awoydev":"Created and developed by AwoyDev",
       "infoconfig":"Vous pouvez modifier le fichier config.json",
       "clearhelp":"          : Supprime les messages du terminal",
       "stophelp":"           : Arrête le processus terminal",
@@ -11,12 +12,13 @@
       "asciihelp":"          : Met un texte en Ascii Art",
       "bitcoinhelp":"        : Affiche le prix du bitcoin",
       "messageclear":"Les messages du terminal ont été supprimé",
-      "titlehelp":"Nom de commande           Description",
+      "titlehelp":"📌 Nom          📋 Description",
       "stopmessage":"Merci d'avoir utiliser Onyx"
     },
     "en": {
       "error": "Command not found",
-      "start":"Start terminal process finish",
+      "awoydev":"Créé et développé par AwoyDev",
+      "start":"Start of the terminal process completed",
       "helpstart":"Type help to get the list of commands",
       "infoconfig":"You can modify the config.json file",
       "clearhelp":"          : Deletes messages from the terminal",
@@ -26,7 +28,7 @@
       "asciihelp":"          : Put a text in Ascii Art",
       "bitcoinhelp":"        : Displays the bitcoin price",
       "messageclear":"Terminal messages have been deleted",
-      "titlehelp":"Name of the command           Description",
+      "titlehelp":"📌 Name         📋 Description",
       "stopmessage":"Thank you for using Onyx"
     }
 }

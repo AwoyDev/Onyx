@@ -12,22 +12,30 @@ textes = json.load(open("textes.json"))[lang]
 # Made by AwoyDev
 #################################
 
-print(colored("""
-  ___  _   ___   ____  __
- / _ \| \ | \ \ / /\ \/ /
-| | | |  \| |\ V /  \  / 
-| |_| | |\  | | |   /  \ 
- \___/|_| \_| |_|  /_/\_\ """, "yellow"))
+logo1 = (colored("""  ___  _   ___   ____  __""", "red"))
+
+logo2 = (colored(""" / _ \| \ | \ \ / /\ \/ /""", "blue"))
+
+logo3 = (colored("""| | | |  \| |\ V /  \  /""", "yellow"))
+
+logo4 = (colored("""| |_| | |\  | | |   /  \ """, "green"))
+
+logo5 = (colored(""" \___/|_| \_| |_|  /_/\_\ """, "magenta"))
 print("")
-print("[", colored("OK", "green"), "]", textes["start"])
-print("[", colored("INFO", "blue"), "]", textes["helpstart"])
-print("[", colored("INFO", "blue"), "]", textes["infoconfig"])
+print(logo1)
+print(logo2, " [", colored("OK", "green"), "]", textes["start"])
+print(logo3, "  [", colored("INFO", "blue"), "]", textes["helpstart"])
+print(logo4, " [", colored("INFO", "blue"), "]", textes["infoconfig"])
+print(logo5, "[", colored("INFO", "blue"), "]", textes["awoydev"])
 
 while True:
-    command = input(settings["prefix"])
+    print(" ")
+    name = os.environ["USER"]
+    command = input(f"onyx@${name}~$ ")
 
     if command == "help":
-        print("")
+        os.system("clear")
+        print(" ")
         print(textes["titlehelp"])
         print(colored("clear", "green"), textes["clearhelp"])
         print(colored("stop", "green"), textes["stophelp"])
@@ -35,7 +43,6 @@ while True:
         print(colored("questionnaire", "green"), textes["questionnairehelp"])
         print(colored("ascii", "green"), textes["asciihelp"])
         print(colored("bitcoin", "green"), textes["bitcoinhelp"])
-        
 
     elif command == "clear":
         os.system("clear")
