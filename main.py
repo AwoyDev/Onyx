@@ -53,17 +53,20 @@ while True:
         break
 
     elif command == "openapp":
+        os.system("clear")
         nameapp = input("Choissisez le nom de l'application\nSi l'application que vous voulez ouvrir contient des espaces met le nom de l'application dans des \"\" \n")
         os.system(f"open -a {nameapp}")
         print(f"L'application {nameapp} s'est ouverte avec succès !\n")
     
     elif command == "bitcoin":
+        os.system("clear")
         url = "https://api.coindesk.com/v1/bpi/currentprice.json"
         resp = requests.get(url)
         json = resp.json()
         print(json["bpi"][settings["bitcoin"]]["rate"])
 
     elif command == "questionnaire":
+        os.system("clear")
         print("Bien ! Commençons le questionnaire :\n")
         nom = input("Quelle est votre nom ? :\n")
         print(f"Tu as enregistré : {nom}")
@@ -78,6 +81,7 @@ while True:
         \nPassion : {passion}", "blue"))
 
     elif command == "ascii":
+        os.system("clear")
         message = input("Veuillez spécifier un message\n")
         print(pyfiglet.figlet_format(message))
 
